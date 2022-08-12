@@ -1,0 +1,26 @@
+.logo {
+  display: block;
+  color: $blackColor;
+  font-family: $font-logo;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.19;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: auto;
+
+  @include media(tablet) {
+    margin-right: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  @include media(desktop) {
+    margin-right: 93px;
+  }
+}
+
+.logo--blue {
+  color: $accentColor;
+}

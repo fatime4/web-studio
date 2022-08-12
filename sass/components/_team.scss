@@ -1,0 +1,39 @@
+.team--bgc {
+  background-color: $primaryBackgroundColor;
+}
+
+.team__item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  @include media(tablet) {
+    width: 354px;
+  }
+}
+
+.team__item--border {
+  background-color: $whiteColor;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+  border-right: 1px solid $portfolioCardsBorder;
+  border-bottom: 1px solid $portfolioCardsBorder;
+  border-left: 1px solid $portfolioCardsBorder;
+}
+
+.team__member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $titleTextColor;
+}
+
+.team__position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
